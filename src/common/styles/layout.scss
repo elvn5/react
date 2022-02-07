@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+// Presets
+@import "normalize";
+@import "variables";
+@import "variables-media";
+@import "mixins";
+@import "animations";
+@import "main";
+
+// Global
+@import "modules/global-styles";
+@import "modules/global-media";
+
+// Main-content
+@import "modules/main-content";
+
+// Components
+@import "modules/components/z-main-components";
+
+// Common
+@import "modules/common/z-main-common";
+
+// Segments
+@import "modules/segments/z-main-segments";
+
+// Pages
+@import "modules/pages/z-main-pages";
+
+
+// *** Media *** //
